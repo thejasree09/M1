@@ -10,6 +10,7 @@ Use the scanf function to read the characters one by one from the user.
 Print the characters in reverse order using the printf function.
 End the program.
 PROGRAM:4
+```
 #include <stdio.h>
 int main()
 {
@@ -23,6 +24,8 @@ int main()
     printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
     return 0;
 }
+```
+
 OUTPUT:
 ![image](https://github.com/user-attachments/assets/f2623ab3-040b-411c-ba9f-685e08b1a7e4)
 
@@ -39,7 +42,11 @@ Use the scanf function to read the value of A from the user.
 Check if the value of A is greater than zero.
 If A is greater than zero, print a message indicating that it's a positive number.
 Otherwise, print a message indicating that it's not a positive number. 6.End the program.
+
+
+
 PROGRAM:
+```
 #include <stdio.h>
 int main() 
 {
@@ -56,6 +63,7 @@ int main()
     }
     return 0;
 }
+```
 OUTPUT:
 ![image](https://github.com/user-attachments/assets/09bb76a4-717b-4cf5-9b15-afbc56f5072e)
 
@@ -76,6 +84,7 @@ Calculate the decimal values of both fractions by dividing the numerators by the
 Use the conditional (ternary) operator to compare the decimal values and store the minimum value in the result variable.
 Print the minimum value.
 PROGRAM:
+```
 #include <stdio.h>
 int main() 
 {
@@ -91,6 +100,7 @@ int main()
     printf("Minimum value between the two fractions is: %.2f\n", min);
     return 0;
 }
+```
 OUTPUT:
 ![image](https://github.com/user-attachments/assets/c60a6fda-3891-437e-82d5-5db5b2144181)
 
@@ -110,6 +120,7 @@ If the condition in the if statement is true, print a message indicating that th
 Otherwise, print a message indicating that it's not equal to 1.
 End the program.
 PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -125,6 +136,7 @@ int main() {
     
     return 0;
 }
+```
 
 OUTPUT:
 ![image](https://github.com/user-attachments/assets/eb7f3ac4-d06e-4ee0-96df-67059f894c56)
@@ -149,6 +161,7 @@ If yes: a. If percentage >= 60: Print “Division = First” b. Else if percenta
 Else: Print “Division = Fail”
 End
 PROGRAM:
+```
 #include <stdio.h>
 int main()
 {
@@ -182,6 +195,7 @@ int main()
     
     return 0;
 }
+```
 OUTPUT:
 ![image](https://github.com/user-attachments/assets/2f1f3ddd-91d7-4fc9-944b-8befbe50de2e)
 ![image](https://github.com/user-attachments/assets/f429d77c-cbd2-4414-9be4-c572ace22eb8)
